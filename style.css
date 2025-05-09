@@ -36,6 +36,10 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
+  .position{
+      top: 100px;
+      left: 40px;
+  }
 
 
 @media (min-width: 600px) {
@@ -46,6 +50,10 @@
   }
 }
 @media (min-width: 992px) {
+    .position{
+      top: 150px;
+      left: 40px;
+  }
   .editor {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -54,14 +62,16 @@
   .latestnews {
     grid-template-columns: 1fr 1fr 2fr;
   }
-  .podcast{
-    display: grid;
+
+ .podcast {
     grid-template-columns: 2fr 1fr;
-    gap: 20px;
   }
   .podcast-second-col{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    div{
+      height: 100%;
+    }
   }
 }
+
