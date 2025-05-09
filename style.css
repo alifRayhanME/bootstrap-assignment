@@ -1,0 +1,25 @@
+
+.editor{
+    margin-top: 50px;
+}
+.latestnews{
+    margin-top: 10px;
+}
+@media (min-width: 600px) {
+    .latestnews{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+@media (min-width: 992px) {
+  .editor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.latestnews{
+    grid-template-columns: 1fr 1fr 2fr;
+}
+}
+
