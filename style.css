@@ -35,10 +35,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    span{
+      font-size: 10px;
+      display: inline-block;
+    }
   }
   .position{
-      top: 100px;
-      left: 40px;
+      top: 60px;
+      left: 10px;
   }
 
 
@@ -48,10 +52,31 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
+    .podcast-second-col{
+    span{
+      font-size: 14px;
+      display: inline-block;
+    }
+  }
+    .position{
+      top: 80px;
+      left: 10px;
+  }
+}
+@media (min-width: 768px) {
+      .podcast-second-col{
+    span{
+      font-size: 16px;
+      display: inline-block;
+    }
+  }
+    .position{
+      top: 120px;
+      left: 10px;
+  }
 }
 @media (min-width: 992px) {
     .position{
-      top: 150px;
       left: 40px;
   }
   .editor {
@@ -72,6 +97,8 @@
     div{
       height: 100%;
     }
+    
   }
+
 }
 

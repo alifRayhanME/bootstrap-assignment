@@ -1,0 +1,13 @@
+<svg width="160" height="35" viewBox="0 0 160 35" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Background (optional) -->
+  <!-- <rect width="160" height="35" fill="black"/> -->
+
+  <!-- Left box with K -->
+  <rect x="0" y="0" width="30" height="35" fill="#E98C5B" />
+  <path d="M10 8V27H13V20L18.5 27H23L16.5 18.5L23 8H18.5L13 15.2V8H10Z" fill="black"/>
+
+  <!-- Text "KIVZO" -->
+  <text x="35" y="25" font-family="Arial, sans-serif" font-size="20" fill="white" font-weight="bold" letter-spacing="4">
+    KIVZO
+  </text>
+</svg>
