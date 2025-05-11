@@ -44,8 +44,16 @@
       top: 60px;
       left: 10px;
   }
-
-
+  .positionbottom{
+    bottom: 20px;
+    padding: 10px;
+    color: white;
+  }
+  .positionnews{
+    bottom: 100px;
+    padding-left: 20px;
+    color: white;
+  }
 @media (min-width: 600px) {
   .latestnews {
     display: grid;
